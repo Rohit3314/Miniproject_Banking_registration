@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REGISTRATION</title>
+    <link rel="stylesheet" type="text/css" href="student.css"></link>
+    <script src="student.js"></script>  
+</head>
+<body>
+    <div class="bgimage">
+    <h2><span id="time"> </span></h2>
+    <center><img src="image/logo3.jpg" alt="logo"></center>
+    <center><h1><u>REGISTRATION FORM</u></h1></center><br>
+    <marquee width="100%" behavior="scroll" bgcolor="yellow">****PLEASE FILL THE FORM PROPERLY AND LAST DATE OF SUBMISSION IS 10/01/2022****</marquee><br>
+    <div align="center">
+
+    <form name="register" id="formid" method="get" onsubmit="return formvalidation()">
+      <script>
+          var dt = new Date();
+          document.getElementById('time').innerHTML=dt;
+      </script>
+    </center>s
+        <table>
+            <tr>
+                <th>1.NAME OF THE APPLICANT</th>
+                <th>2.DOB(dd/mm/yyyy)</th>
+                <th>3.AGE</th>
+            </tr>
+            <tr>
+                <td><center><input type="text" name="Aname" size="50" maxlength="25"></center></td>
+                <td><center><input type="date" name="date" ></center></td>
+                <td><center><input type="text" name="age" maxlength="2"></center></td>
+            </tr>
+        </table>
+        <table>
+            <tr>
+                <th>4.GENDER</th>
+                <th>5.NATIONALITY</th>
+                <th>6.CATOGERY</th>
+            </tr>
+            <tr>
+                <td><center><select  NAME="gen">
+                    <option value="">**select**</option>
+                    <option>Male</option>
+                    <option>Female</option></select>
+                    </center>
+                </td>
+                <td><center><input type="text" name="nation" maxlength="20"</center></td>
+                <td><center><select name="caste">
+                <option value="">**select**</option>
+                <option>OBC</option>
+                <option>MBC</option>
+                <option>BC</option>
+                <option>other</option></select>
+                </center></td>
+            </tr>
+        </table>
+        <table>
+            <tr>
+                <th>7.CONTACT NUMBER</th>
+                <th>8.WORK EXPERIONCE IN MONTH</th>
+            </tr>
+            <tr>
+                <td><center><input type="text" name="mob" maxlength="50"></center></td>
+                <td><center><input type="text" name="exp" maxlength="20"></center></td>
+            </tr>
+        </table>
+        <table>
+            <tr>
+                <th>9.STATE</th>
+                <th>10.CHOICE OF TEST CENTER</th>
+                <th>11.EXAM NAME</th>
+            </tr>
+            <tr>
+            <td><center><select name="state">
+                <option value="">**select**</option>
+                <option>TAMIL NADU</option>
+                <option>KERALA</option>
+                <option>KARNATAKA</option>
+                <option>ANDRA</option>
+                <option>PONDICHERRY</option>
+            </select></center></td>
+            <td><center><select name="center">
+                <option value="">**select**</option>
+                <option>Chennai</option>
+                <option>Coimbator</option>
+                <option>Palakkadu</option>
+                <option>Kochi</option>
+                <option>Pondicherry</option>
+                <option>Bengaluru</option>
+                <option>Vijayawada</option>
+                <option>Pondicherry</option>
+            </select></center></td>
+            <td><center><select name="exam">
+                <option value="">**select**</option>
+                <option>Customer Focused</option>
+                <option>Specialist Functions</option>
+                <option>Tech and Transformation</option>
+                <option>Infrastructure Engineer</option>
+                <option>Customer Service Assistant</option>
+                <option>CLERK</option>
+            </select></center></td>
+            </tr>
+        </table>
+    <table>
+        <th>12.EDUCATION DETAILS</th>
+    </table>
+    <table>
+        <tr>
+        <th>GRADUATION</th>
+        <th>DEGREE</th>
+        <th>BRANCH</th>
+        <th>AGGREGATION</th>
+        <th>YEAR</th>
+        <th>UNIVERSITY</th>
+        </tr>
+        <tr>
+            <td><center>UG</center></td>
+            <td><center><select name="gd">
+                <option value="">**select**</option>
+                <option>B.TECH</option>
+                <option>BSC</option>
+                <option>CA</option>
+                <option>BE</option>
+            </select></center></td>
+            <td><center><select name="gb">
+                <option value="">**select**</option>
+                <option>CSE</option>
+                <option>IT</option>
+                <option>ECE</option>
+                <option>MATHS</option>
+            </select></center></td>
+            <td><center><input type="text" name="gag"></center></td>
+            <td><center><input type="text" name="gyr"></center></td>
+            <td><center><select name="gub">
+            <option value="">**select**</option>
+            <option>ANNA UNIVERSITY</option>
+            <option>PONDICHERRY UNIVERSITY</option>
+            <option>MADRAS UNIVERSITY</option>
+            <option >UNIVERSITY OF TRICHY</option>
+            <option>OTHERS</option></select></center></td>
+        </tr>
+        
+        <tr>
+            <td><center>HIGHER SECONDARY</center></td>
+            <td><center>NULL</center></td>
+            <td><center><select name="hb">
+                <option value="">**select**</option>
+                <option>COMPUTER</option>
+                <option>ECONOMICS</option>
+                <option>BIOLOGY</option>
+                <option>OTHERS</option>
+            </select></center></td>
+            <td><center><input type="text" name="hag"></center></td>
+            <td><center><input type="text" name="hyr"></center></td>
+            <td><center><select name="hub">
+            <option value="">**select**</option>
+            <option>STATE BOARD</option>
+            <option>CBSC</option>
+            </select></center></td>
+        </tr>
+        <tr>
+            <td><center>SSLC</center></td>
+            <td><center>NULL</center></td>
+            <td><center>NULL</center></td>
+            <td><center><input type="text" name="sag"></center></td>
+            <td><center><input type="text" name="syr"></center></td>
+            <td><center><select name="sub">
+            <option value="">**select**</option>
+            <option>STATE BOARD</option>
+            <option>CBSC</option>
+            </select></center></td>
+        </tr>
+    </table> 
+    <table>
+        <th>13.ADDRESS FOR COMMUNICATION</th>
+    </table>
+    <table>
+        <tr>
+            <td><center>FIRST LINE:</center></td>
+            <td><center><input type='text' name="fl" size="100"</center></td>
+        </tr>
+        <tr>
+            <td><center>SECOND LINE:</center></td>
+            <td><center><input type='text' name="ll" size="100"</center></td>
+        </tr>
+        <tr>
+            <td><center>PINCODE</center></td>
+            <td><center><input type='text' name="pin" size="20" maxlength="8"></center></td>
+        </tr>
+    </table>
+    <table>
+        <tr>
+            <th>14:PROJECT NAME:</th>
+            <th>15:EMAIL ADDRESS:</th>
+        </tr>
+        <tr>
+            <td><center><input type="text" name="pro" size="50"></center></td>
+            <td><center><input type="text" name="mail" size="50"></center></td>
+        </tr>
+    </table>
+    <input type="SUBMIT" id="SUBMIT" class="button" formaction="/formsubmit.html">
+     <input type="reset" id="RESET" class="button1">
+    </form>
+    </div>
+     </div>
+</body>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
+.bgimage{
+    background-image: url("image/exam1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 110vh;
+}    
+</style>
+</html>

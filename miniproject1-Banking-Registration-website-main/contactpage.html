@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONTACT US</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+</head>
+<body>
+    <div class="bgimage">
+    <div class="contact-page">
+        <h2>***GET IN TOUCH***</h2>
+        <div class="contact-info">
+            <div class="item">
+                <i class="icon fas fa-home"></i>
+                <strong>ADDRESS: 12/1 NORTH CAMP STREET,MUMBAI-5014758</strong>
+            </div>
+            <div class="item">
+                <i class="icon fas fa-phone"></i>
+                <strong>phone: +91 894567523</strong>
+            </div>
+            <div class="item">
+                <i class="icon fas fa-envelope"></i>
+                <strong>lloydsbanking893@gmail.com </strong>
+            </div>
+            <div class="item">
+                <i class="icon fas fa-clock"></i>
+                <strong> MON - FRI 10:00AM TO 5.00PM </strong>
+            </div>
+        </div>
+        <form action="" class="contact-form">
+            <input type="text" class="textb" placeholder="NAME">
+            <input type="text" class="textb" placeholder="EMAIL">
+            <textarea placeholder="YOUR MESSAGE"></textarea>
+            <input type="submit" class="btn" value='send'>
+        </form>
+    </div>
+    </div>
+</body>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .bgimage{
+    background-image: url("image/contact4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}    
+    body{
+        min-height: 100vh;
+        background-size: cover;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .contact-page{
+        width: 100%;
+        max-width: 1400px;
+        padding: 50px;
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    h2{
+        width: 100%;
+        margin-bottom: 80px;
+        text-transform: uppercase;
+        color: white;
+        font-size: 60px;
+        }
+    .contact-info, .contact-form{
+        flex:1 ;
+    }
+    .item{
+        margin-bottom: 24px;
+        font-size: 16px;
+        color: black;
+    }
+    .icon{
+        width: 60px;
+        height: 60px;
+        line-height: 60px;
+        background-color:orangered;
+        text-align: center;
+        color: white;
+        border-radius: 50%;
+        margin-right: 16px;
+    }
+    .contact-form{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+    }
+    .textb{
+        width: calc(50% - 10px);
+        height: 50px;
+        padding: 12px;
+        background-color: black;
+        border: none;
+        color: white;
+        margin-bottom: 20px;
+    }
+    textarea{
+        width: 100%;
+        min-height: 200px;
+        max-height: 400px;
+        resize: vertical;
+        padding: 12px;
+        background-color: black;
+        border: none;
+        color: white;
+        margin-bottom: 20px;
+    }
+    .btn{
+        width: 120px;
+        height: 40px;
+        margin-left: auto;
+        background-color: orangered;
+        border: none;
+        color: white;
+        text-transform: uppercase;
+        cursor: pointer;
+        border: 2px solid orangered;
+        transition: .3s linear;
+    }
+    .btn:hover{
+        background-color: transparent;
+        color: orangered;
+}
+strong{
+    font-size: larger;
+    font-weight: bolder;
+    color: white;
+}
+</style>
+</html>

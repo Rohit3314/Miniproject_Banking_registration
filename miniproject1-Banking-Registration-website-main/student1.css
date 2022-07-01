@@ -1,0 +1,131 @@
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+.icon h1{
+    color: black;
+    font-size:xx-large;
+    font-weight:bolder;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    float: left;
+}
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+.menu button{
+    background-color: orangered;
+    border: orangered;
+    border-radius: 12px;
+    padding: 15px 15px;
+    float: left;
+    justify-content: center;
+    align-items: center;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size:small;
+    cursor: pointer;
+    text-align: center;
+}
+.menu button a{
+    font-size: larger;
+    text-decoration: none;
+    color: black;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+}
+.menu button a:hover{
+    color:blue;
+}
+.search{
+    float: right;
+}
+.srch{
+    font-family: 'Times New Roman', Times, serif;
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid orangered;
+    margin-top: 13px;
+    color: white;
+    border-right: none;
+    font-size: 16px;
+    float: left;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.btn{
+    width: 100px;
+    height: 40px;background: orangered;
+    border: 2px solid orangered;
+    margin-top: 13px;
+    color: white;
+    font-size: 15px;
+    border-bottom-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.btn:focus{
+    outline:none;
+}
+.srch:focus{
+outline: none;
+}
+.content{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: white;
+    position: relative;
+}
+.content .par{
+    color: black;
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+    font-weight: bolder;
+    font-size: large;
+}
+.content .par:hover{
+    color:orangered;
+}
+.content h1{
+    color: orangered;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    padding-left: 20px;
+    padding-bottom: 25px;
+    margin-top: 9%;
+    letter-spacing:2px;
+}
+.content .cn{
+width: 160px;
+height:40px;
+background: orangered;
+border: none;
+margin-bottom: 10px;
+margin-left: 20px;
+}
+.cn a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.cn:hover{
+    background-color: white;
+}
+marquee{
+    color: orangered;
+    font-size: larger;
+    font-weight: bolder;
+}
+img{
+    float:left;
+    width: 500px;
+    height: 500px;
+}
